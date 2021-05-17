@@ -9,7 +9,7 @@ namespace BuisnessLogic
 	{
 		public string HandleOrders()
 		{
-			throw new NotImplementedException();
+			return "Generated a packing slip for shipping";
 		}
 	}
 }

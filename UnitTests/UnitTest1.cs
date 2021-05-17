@@ -34,10 +34,19 @@ namespace UnitTests
 
 			var result = order.Process();
 
-			Assert.AreEqual(result, "create a duplicate packing slip for the royalty department.");
+			Assert.AreEqual(result, "Created a duplicate packing slip for the royalty department.");
 		}
 
 
+		[TestMethod]
+		public void ProcessOrder_Upgrade()
+		{
+			var order = new ProcessOrder(new Upgrade());
+
+			var result = order.Process();
+
+			Assert.AreEqual(result, "Applied the upgrade");
+		}
 
 	}
 }

@@ -5,11 +5,11 @@ using System.Text;
 
 namespace BuisnessLogic
 {
-	public class Membership : Ipayment
+	public class Upgrade : Ipayment
 	{
 		public string HandleOrders()
 		{
-			return "Activated membership";
+			return "Applied the upgrade";
 		}
 	}
 }

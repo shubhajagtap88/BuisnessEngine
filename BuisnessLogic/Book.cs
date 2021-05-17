@@ -9,7 +9,7 @@ namespace BuisnessLogic
 	{
 		public string HandleOrders()
 		{
-			throw new NotImplementedException();
+			return "Created a duplicate packing slip for the royalty department.";
 		}
 	}
 }
