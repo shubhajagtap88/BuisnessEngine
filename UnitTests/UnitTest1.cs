@@ -20,7 +20,7 @@ namespace UnitTests
 		[TestMethod]
 		public void ProcessOrder_Membership()
 		{
-			var order = new ProcessOrder(new Membership());
+			var order = new ProcessOrder(new Membership(new Email())); //Instead of sending Email object here, ideal way is to stub this and test only order process logic
 
 			var result = order.Process();
 
@@ -41,7 +41,7 @@ namespace UnitTests
 		[TestMethod]
 		public void ProcessOrder_Upgrade()
 		{
-			var order = new ProcessOrder(new Upgrade());
+			var order = new ProcessOrder(new Upgrade(new Email()));
 
 			var result = order.Process();
 
