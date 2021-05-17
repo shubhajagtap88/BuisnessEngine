@@ -1,0 +1,13 @@
+D:\Projects\BuisnessEngine\BuisnessLogic\bin\Debug\netcoreapp3.1\BuisnessLogic.exe
+D:\Projects\BuisnessEngine\BuisnessLogic\bin\Debug\netcoreapp3.1\BuisnessLogic.deps.json
+D:\Projects\BuisnessEngine\BuisnessLogic\bin\Debug\netcoreapp3.1\BuisnessLogic.runtimeconfig.json
+D:\Projects\BuisnessEngine\BuisnessLogic\bin\Debug\netcoreapp3.1\BuisnessLogic.runtimeconfig.dev.json
+D:\Projects\BuisnessEngine\BuisnessLogic\bin\Debug\netcoreapp3.1\BuisnessLogic.dll
+D:\Projects\BuisnessEngine\BuisnessLogic\bin\Debug\netcoreapp3.1\BuisnessLogic.pdb
+D:\Projects\BuisnessEngine\BuisnessLogic\obj\Debug\netcoreapp3.1\BuisnessLogic.csprojAssemblyReference.cache
+D:\Projects\BuisnessEngine\BuisnessLogic\obj\Debug\netcoreapp3.1\BuisnessLogic.AssemblyInfoInputs.cache
+D:\Projects\BuisnessEngine\BuisnessLogic\obj\Debug\netcoreapp3.1\BuisnessLogic.AssemblyInfo.cs
+D:\Projects\BuisnessEngine\BuisnessLogic\obj\Debug\netcoreapp3.1\BuisnessLogic.csproj.CoreCompileInputs.cache
+D:\Projects\BuisnessEngine\BuisnessLogic\obj\Debug\netcoreapp3.1\BuisnessLogic.dll
+D:\Projects\BuisnessEngine\BuisnessLogic\obj\Debug\netcoreapp3.1\BuisnessLogic.pdb
+D:\Projects\BuisnessEngine\BuisnessLogic\obj\Debug\netcoreapp3.1\BuisnessLogic.genruntimeconfig.cache
