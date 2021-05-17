@@ -46,18 +46,6 @@ namespace UnitTests
 			var result = order.Process();
 
 			Assert.AreEqual(result, "Applied the upgrade");
-		}
-
-
-		[TestMethod]
-		public void ProcessOrder_Upgrade()
-		{
-			var order = new ProcessOrder(new Upgrade(new Email()));
-
-			var result = order.Process();
-
-			Assert.AreEqual(result, "Applied the upgrade");
-		}
-
+		}					
 	}
 }

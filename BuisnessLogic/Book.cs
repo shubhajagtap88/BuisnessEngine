@@ -9,7 +9,7 @@ namespace BuisnessLogic
 	{
 		public int GenerateCommision(int price)
 		{
-			throw new NotImplementedException();
+			return price * 10 / 100;
 		}
 
 		public string HandleOrders()
