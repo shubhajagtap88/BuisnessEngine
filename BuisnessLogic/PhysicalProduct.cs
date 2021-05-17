@@ -5,8 +5,13 @@ using System.Text;
 
 namespace BuisnessLogic
 {
-	public class PhysicalProduct : Ipayment
+	public class PhysicalProduct : Ipayment, ICommisionPayment
 	{
+		public int GenerateCommision(int price)
+		{
+			throw new NotImplementedException();
+		}
+
 		public string HandleOrders()
 		{
 			return "Generated a packing slip for shipping";
