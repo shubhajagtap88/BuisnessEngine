@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BuisnessLogic
 {
-	class ProcessOrder
+	public class ProcessOrder
 	{
 		Ipayment _ipayment;
 		public ProcessOrder(Ipayment ipayment)
