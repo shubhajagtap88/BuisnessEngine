@@ -11,3 +11,6 @@ D:\Projects\BuisnessEngine\BuisnessLogic\obj\Debug\netcoreapp3.1\BuisnessLogic.c
 D:\Projects\BuisnessEngine\BuisnessLogic\obj\Debug\netcoreapp3.1\BuisnessLogic.dll
 D:\Projects\BuisnessEngine\BuisnessLogic\obj\Debug\netcoreapp3.1\BuisnessLogic.pdb
 D:\Projects\BuisnessEngine\BuisnessLogic\obj\Debug\netcoreapp3.1\BuisnessLogic.genruntimeconfig.cache
+D:\Projects\BuisnessEngine\BuisnessLogic\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\BuisnessEngine\BuisnessLogic\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\BuisnessEngine\BuisnessLogic\obj\Debug\netcoreapp3.1\BuisnessLogic.csproj.CopyComplete

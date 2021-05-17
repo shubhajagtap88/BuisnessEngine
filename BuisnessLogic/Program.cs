@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BuisnessLogic.Interfaces;
+using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace BuisnessLogic
 {
@@ -6,7 +8,19 @@ namespace BuisnessLogic
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			var services = ConfigureServices();
+			var serviceProvider = services.BuildServiceProvider();
+			serviceProvider.GetService<ProcessOrder>().Process();
+		}
+		private static IServiceCollection ConfigureServices()
+		{
+			IServiceCollection services = new ServiceCollection();
+			services.AddTransient<INotification, Email>();
+			services.AddTransient<Ipayment, Membership>();
+			
+
+			services.AddTransient<ProcessOrder>();
+			return services;
 		}
 	}
 }

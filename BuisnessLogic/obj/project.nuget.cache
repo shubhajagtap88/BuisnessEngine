@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eSa12zgGP0KcEBpOE7QV5KjS2o9hm3B6zuuFZk4aGxh+qMifu2fdCley/+wRM3LYS9B9vU/gdCQp15vo+/gRCw==",
+  "dgSpecHash": "DuMK+PWaWsALnRub14HpdlIwjtZQj2jYwG7CFlJkT9w/5pKZLsjAvVrFymTykkgVWXUTxmrxt4IlWKM7LnFjLA==",
   "success": true,
   "projectFilePath": "D:\\Projects\\BuisnessEngine\\BuisnessLogic\\BuisnessLogic.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ShubhangiJ\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\ShubhangiJ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
