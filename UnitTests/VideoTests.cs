@@ -7,7 +7,7 @@ using System.Text;
 namespace UnitTests
 {
 	[TestClass]
-	class VideoTests
+	public class VideoTests
 	{
 		[TestMethod]
 		public void Video_AddSafetyBook()
@@ -20,6 +20,7 @@ namespace UnitTests
 			Assert.AreEqual(result, true);
 		}
 
+		[TestMethod]
 		public void Video_NotAddSafetyBook()
 		{
 			var video = new Video();
@@ -27,7 +28,7 @@ namespace UnitTests
 
 			var result = video.IsAddSafetyBook();
 
-			Assert.AreEqual(result, true);
+			Assert.AreEqual(result, false);
 		}
 	}
 }

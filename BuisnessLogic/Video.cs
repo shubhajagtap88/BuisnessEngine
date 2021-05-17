@@ -8,6 +8,7 @@ namespace BuisnessLogic
 	public class Video : Ipayment
 	{
 		public string Name { get; set; }
+List<string> SafetyRequiredVideos = new List<string>{ "Learning to Ski", "Swiming" };
 		public string HandleOrders()
 		{
 			throw new NotImplementedException();
@@ -15,7 +16,8 @@ namespace BuisnessLogic
 
 		public Boolean IsAddSafetyBook()
 		{
-			throw new NotImplementedException();
+			if (SafetyRequiredVideos.Contains(Name)) return true;
+			return false;
 		}
 	}
 }

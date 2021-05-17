@@ -7,7 +7,7 @@ using System.Text;
 namespace UnitTests
 {
 	[TestClass]
-	class BookTests
+	public class BookTests
 	{
 		[TestMethod]
 		public void PhysicalProduct_GenerateCommision()
